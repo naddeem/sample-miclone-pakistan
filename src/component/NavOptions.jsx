@@ -56,7 +56,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -67,7 +67,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -78,7 +78,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -89,7 +89,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -100,7 +100,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -111,7 +111,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -122,7 +122,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
@@ -133,7 +133,7 @@ const NavOptions = ({
               name={item.name}
               price={item.price}
               image={item.image}
-              key={item.image}
+              key={item.index}
             />
           ))
         : null}
