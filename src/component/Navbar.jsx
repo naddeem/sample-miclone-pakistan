@@ -20,30 +20,30 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <a className="navlinks" href="/miphones">
+      <Link className="navlinks" to="/miphones">
         MI Phones
-      </a>
-      <a className="navlinks" href="/redmiPhones">
+      </Link>
+      <Link className="navlinks" to="/redmiPhones">
         Redmi Phones
-      </a>
-      <a className="navlinks" href="/tv">
+      </Link>
+      <Link className="navlinks" to="/tv">
         TV
-      </a>
-      <a className="navlinks" href="/laptops">
+      </Link>
+      <Link className="navlinks" to="/laptops">
         Laptops
-      </a>
-      <a className="navlinks" href="/fitness&LifeStyle">
+      </Link>
+      <Link className="navlinks" to="/fitness&LifeStyle">
         Fitness & LifeStyle
-      </a>
-      <a className="navlinks" href="/home">
+      </Link>
+      <Link className="navlinks" to="/home">
         Home
-      </a>
-      <a className="navlinks" href="/radio">
+      </Link>
+      <Link className="navlinks" to="/radio">
         Radio
-      </a>
-      <a className="navlinks" href="/accesories">
-        Accesories
-      </a>
+      </Link>
+      <Link className="navlinks" to="/accesories">
+        Accessories
+      </Link>
       <div className="searchbox">
         <input type="text" name="search" placeholder="Search Products" />
         {searchIcon}
